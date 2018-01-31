@@ -1,0 +1,268 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f5f6fa;
+    width: 100%;
+    height: 100%;
+}
+.material-icons.md-28 { font-size: 32px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+/*ASIDE*/
+aside{
+    display : block;
+    float: left;
+    height: 100%;
+    width: 90px;
+    background-color: white;
+    color: #a9afbb;
+    margin: 0;
+    border-right: 2px solid #e4e5ea;
+}
+.divLogo{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.logoLB{
+    margin-top: 2.5px;
+    width: 65px;
+    height: 65px;
+}
+.divNav{
+    margin-top: 50px;
+}
+.nav{
+    text-align: center;
+}
+.nav>li{
+    height: 50px;
+    width: calc(100% - 3px);
+    margin-bottom: 20px;
+    border-right: 4px solid white;
+}
+.nav>li:hover{
+    background-color: #EDF2F4;
+    border-right: 4px solid #EDF2F4;
+}
+.nav>li>a:hover{
+}
+.nav>li>a{
+    color: #2B2D42;
+    text-decoration: none;
+    display: block;
+    width: calc(100% - 3px);
+    height: 50px;
+}
+.nav>li>a>i{
+    margin-top: 10px;
+}
+.lineAside{
+    border: none;
+    height: 2px;
+    background-color: #e4e5ea;
+    margin: 0;
+}
+.active{
+    border-right: 4px solid #D90429 !important;
+}
+.active>a>i{
+    color: #D90429;
+}
+
+/*HEADER*/
+header{
+    display : block;
+    float: left;
+    width: calc(100% - 92px);
+    background-color: white;
+    height: 70px;
+    border-bottom: 2px solid #e4e5ea;
+}
+.headLeft{
+    display: block;
+    float: left;
+    margin-left: 45px;
+    font-size: 1.5rem;
+    line-height: 70px;
+}
+.headRight{
+    display: block;
+    float: right;
+    text-align: center;
+    height: 100%;
+}
+.logoHowest{
+    height: 100%;
+    margin-right: 45px;
+}
+/*MAIN*/
+main{
+    display: block;
+    float: left;
+    width: calc(100% - 92px);
+    height: calc(100% - 80px);
+    text-align: center;
+
+}
+.mainDiv{
+    background-color: White;
+    border: 2px solid #e4e5ea;
+    color: #8D99AE;
+    border-radius: 15px;
+    text-align: center;
+}
+.left{
+    display: block;
+    float: left;
+    height: 80%;
+    width: 18%;
+    padding: 2%;
+    margin: 3% 0px 0px 2%;
+}
+.rightTop{
+    display: block;
+    float: right;
+    height: 33.5%;
+    width: 68%;
+    padding: 2%;
+    margin: 3% 2% 0px 0px;
+}
+.rightBottom{
+    display: block;
+    float: right;
+    height: 33.5%;
+    width: 68%;
+    padding: 2%;
+    margin: 1.75% 2% 0px 0px;
+}
+.leftBottom{
+    display: block;
+    float: left;
+    height: 33.5%;
+    width: 68%;
+    padding: 2%;
+    margin: 1.75% 0 0 2%;
+}
+.leftTop{
+    display: block;
+    float: left;
+    height: 33.5%;
+    width: 68%;
+    padding: 2%;
+    margin: 3% 0 0px 2%;
+}
+.right{
+     display: block;
+     float: right;
+     height: 80%;
+     width: 18%;
+     padding: 2%;
+     margin: 3% 2% 0px 0;
+}
+.text{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.mainTitle{
+    text-align: left !important;
+    color: #2B2D42;
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.btn{
+    text-align: left;
+    padding-left: 25px !important;
+    background-color: #ef233c;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    height: 20px !important;
+    width: 90% !important;
+}
+
+/*VIEW*/
+.fullScore{
+    display: block;
+    text-align: center;
+    float: left;
+    height: 3%;
+    width: 89%;
+    padding: 2%;
+    margin: 3% 0% 0px 3%;
+}
+.map{
+    display: block;
+    text-align: center;
+    float: left;
+    height: 60%;
+    width: 89%;
+    padding: 2%;
+    margin: 3% 0% 0px 3%;
+}
+.teamLeft{
+    display: block;
+    float: left;
+    font-size: 1.7rem;
+    margin: 0 2% 0px 0;
+}
+.teamRight{
+    display: block;
+    float: right;
+    font-size: 1.7rem;
+    margin: 0 0 0px 2%;
+}
+.scores{
+    position: absolute;
+    font-size: 2rem;
+    font-family: 'Exo 2', sans-serif;
+    top: 18%;
+    left: 25%;
+    width: 50%;
+    height: 5%;
+}
+.time{
+    display: inline-block;
+    height: 80%;
+    width: 10%;
+    background-color: #ef233c;
+    color: white;
+    line-height: 2.0rem;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+.mapImg{
+    height: 98%;
+}
+.scoreT1{
+    display: inline-block;
+    height: 70%;
+    width: 20%;
+    background-color: white;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.scoreT2{
+    display: inline-block;
+    height: 70%;
+    width: 20%;
+    background-color: white;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.winner {
+    display: inline-block;
+    height: 70%;
+    width: 10%;
+    color: #00a321;
+    line-height: 2.0rem;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+/*FOOTER*/
